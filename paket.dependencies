@@ -1,5 +1,5 @@
 source https://www.nuget.org/api/v2
 nuget Fable.Core
-nuget Fable.Import.Browser
 nuget FSharp.Core >= 4.1.0
 nuget FSharp.NET.Sdk >= 1.0.0
+nuget Fable.Import.Browser
