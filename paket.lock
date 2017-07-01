@@ -33,8 +33,15 @@ NUGET
       System.Threading.Timer (>= 4.0.1) - restriction: >= netstandard1.6
     FSharp.NET.Sdk (1.0.5)
       FSharp.Compiler.Tools (>= 4.1.17) - restriction: || (>= net40) (>= netstandard1.3)
+    Microsoft.NETCore.Jit (1.1.2) - restriction: || (&& (< net45) (>= netstandard1.0) (< win8) (< wp8) (< wpa81)) (>= dnxcore50)
     Microsoft.NETCore.Platforms (1.1) - restriction: >= netstandard1.6
+    Microsoft.NETCore.Portable.Compatibility (1.0.1)
+      Microsoft.NETCore.Runtime.CoreCLR (>= 1.0.2) - restriction: || (&& (< net45) (>= netstandard1.0) (< win8) (< wp8) (< wpa81)) (>= dnxcore50)
+    Microsoft.NETCore.Runtime.CoreCLR (1.1.2) - restriction: || (&& (< net45) (>= netstandard1.0) (< win8) (< wp8) (< wpa81)) (>= dnxcore50)
+      Microsoft.NETCore.Jit (>= 1.1.2)
+      Microsoft.NETCore.Windows.ApiSets (>= 1.0.1)
     Microsoft.NETCore.Targets (1.1) - restriction: || (&& (>= dnxcore50) (>= netstandard1.6)) (&& (< netstandard1.1) (>= netstandard1.6) (< monoandroid)) (&& (< netstandard1.2) (>= netstandard1.6) (< monoandroid)) (&& (< netstandard1.3) (>= netstandard1.6) (< monoandroid)) (&& (< netstandard1.5) (>= netstandard1.6) (< monoandroid)) (&& (>= netstandard1.6) (< monotouch) (< xamarinios) (< xamarinmac)) (>= netcore1.1)
+    Microsoft.NETCore.Windows.ApiSets (1.0.1) - restriction: || (&& (< net45) (>= netstandard1.0) (< win8) (< wp8) (< wpa81)) (>= dnxcore50)
     Microsoft.Win32.Primitives (4.3) - restriction: >= netstandard1.6
       Microsoft.NETCore.Platforms (>= 1.1) - restriction: && (< net46) (>= netstandard1.3) (< monotouch) (< xamarinios) (< xamarinmac)
       Microsoft.NETCore.Targets (>= 1.1) - restriction: && (< net46) (>= netstandard1.3) (< monotouch) (< xamarinios) (< xamarinmac)
